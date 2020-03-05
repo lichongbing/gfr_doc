@@ -1,0 +1,108 @@
+{
+    "author": "lichongbing",
+    "description": " 中公基础知识高频考点速记",
+    "language": "zh-hans",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true,
+            "weibo": true
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 16,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": true,
+        "paperSize": "a4"
+    },
+    "plugins": [
+        "github",
+        "splitter",
+        "tbfed-pagefooter",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "github-buttons",
+        "prism",
+        "-highlight",
+        "-livereload",
+        "hide-element",
+        "back-to-top-button",
+        "tbfed-pagefooter",
+        "expandable-chapters",
+        "chapter-fold",
+        "page-treeview",
+        "openwrite",
+        "theme-fexa",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-twilight.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"lichongbing",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github": {
+            "url": "https://github.com/lichongbing/gfr_doc"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": false
+        },
+        "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
+        "github-buttons": {
+            "repo": "lichongbing/gfr_doc",
+            "types": [
+                "star",
+                "watch"
+            ],
+            "size": "small"
+        },
+        "image-captions": {
+            "caption": "_CAPTION_"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "theme-fexa":{
+            "search-placeholder":"输入关键字搜索",
+            "logo":"./logo.png",
+            "favicon": "./favicon.ico"
+        },
+        "openwrite":{
+            "blogId": "18972-1576749538667-677",
+            "name": "谦谦君子",
+            "qrcode": "https://image.lichongbing.com/qrcode_for_gh_29bad7d68f3a_258.jpg",
+            "keyword": "更多"
+        }
+    },
+    "title": "中公基础知识高频考点速记",
+    "variables": {"themeFexa":{
+            "nav":[
+                {
+                    "url":"http://...",
+                    "target":"_blank",
+                    "name": "中公基础知识高频考点速记"
+                }
+            ]
+        }}
+}
