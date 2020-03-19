@@ -14,8 +14,6 @@
 <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
 <script>
-import 'gitalk/dist/gitalk.css'
-import Gitalk from 'gitalk'
     var gitalk = new Gitalk({
     clientID: '0353c1f363b8bff49221', // GitHub Application Client ID
     clientSecret: 'c41eb86e2b8541088a9b61295bef11e08df259a2', // GitHub Application Client Secret
